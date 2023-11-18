@@ -1,0 +1,12 @@
+{
+    "name": "Rust Project",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "forwardPorts": [8000],
+    "settings": { 
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": ["rust-lang.rust"]
+}
