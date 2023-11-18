@@ -4,7 +4,8 @@
         "dockerfile": "Dockerfile",
         "context": ".."
     },
-    "forwardPorts": [8000],
+    // "runArgs": ["-v", "/run/host-services/ssh-auth.sock:/ssh-agent", "-e", "SSH_AUTH_SOCK=/ssh-agent"],
+    "forwardPorts": [8000]
     // "settings": { 
     //     "terminal.integrated.shell.linux": "/bin/bash"
     // },
