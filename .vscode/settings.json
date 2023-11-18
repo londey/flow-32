@@ -1,0 +1,12 @@
+{
+    "dev.containers.defaultExtensions": [
+        "streetsidesoftware.code-spell-checker",
+        "serayuzgur.crates",
+        "tamasfe.even-better-toml",
+        "GitHub.copilot-chat",
+        "eamodio.gitlens",
+        "yzhang.markdown-all-in-one",
+        "GitHub.copilot",
+        "rust-lang.rust-analyzer"
+    ]
+}
