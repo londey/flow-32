@@ -4,7 +4,7 @@
         "dockerfile": "Dockerfile",
         "context": ".."
     },
-    // "runArgs": ["-v", "/run/host-services/ssh-auth.sock:/ssh-agent", "-e", "SSH_AUTH_SOCK=/ssh-agent"],
+    "runArgs": ["-v", "/run/host-services/ssh-auth.sock:/ssh-agent", "-e", "SSH_AUTH_SOCK=/ssh-agent"],
     "forwardPorts": [
         8000
     ],
@@ -21,7 +21,8 @@
                 "serayuzgur.crates",
                 "streetsidesoftware.code-spell-checker",
                 "tamasfe.even-better-toml",
-                "mshr-h.veriloghdl"
+                "mshr-h.veriloghdl",
+                "ms-azuretools.vscode-docker"
             ]
         }
     }
